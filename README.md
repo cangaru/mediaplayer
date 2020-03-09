@@ -9,6 +9,7 @@ To install, download and then change to the downloaded directory and use ./insta
 The install script attempts to install some dependencies (deb) using apt-get.
 The player does not build or use libraries for your media files but is designed to run off directory-based media.
 Features: 4 executables: reproductor (the interfaz), tocador (the gstreamer compiled player), mandar (a cli for sending commands to the player) convsegundos (a utility for converting seconds to human friendly time duration)
+Their is also a small custom commands plugin for Thunar, a file administrator, which will install if Thunar is on your system. If not you can adjust your file administrator to use the cli (below) to facilitate adding files to the player.
 It will play just about anything since it uses gstreamer's "playbin", so if it fails to play it will probably be just a question of installing gstreamer1.0 plugins. Gstreamer is very versatile and robust and should not cause any problems with a decently configured sound system.
 Installs to /usr/local/bin.
 To use the CLI: mandar command variable, where command can be: 
